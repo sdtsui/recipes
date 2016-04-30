@@ -1,6 +1,9 @@
 import React from 'react';
 // It's important to not define HelloWorld component right in this file
 // because in that case it will do full page reload on change
-import HelloWorld from './HelloWorld.jsx';
+import SiteNotFound from './404Page/Index.jsx';
 
-React.render(<HelloWorld />, document.getElementById('react-root'));
+
+React.render(<SiteNotFound />, document.getElementById('react-root'));
+
+
